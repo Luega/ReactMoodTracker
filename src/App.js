@@ -1,6 +1,6 @@
-import MoodsContainer from "./components/MoodsContainer";
+import MoodsContainer from "./components/Moods/MoodsContainer";
 
-function App() {
+const App = () => {
   const moods = [
     {
       id: "e1",
@@ -34,6 +34,6 @@ function App() {
       <MoodsContainer moods={moods} />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,7 +1,6 @@
-import React from "react";
 import "./MoodDate.css";
 
-export default function MoodDate(props) {
+const MoodDate = (props) => {
   const year = props.date.getFullYear();
   const month = props.date.toLocaleString("en-US", { month: "long" });
   const day = props.date.toLocaleString("en-US", { day: "2-digit" });
@@ -13,4 +12,6 @@ export default function MoodDate(props) {
       <div className="mood-date__year">{year}</div>
     </div>
   );
-}
+};
+
+export default MoodDate;

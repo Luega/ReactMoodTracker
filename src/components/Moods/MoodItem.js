@@ -1,15 +1,17 @@
-import React from "react";
 import "./MoodItem.css";
 import MoodDate from "./MoodDate";
+import Card from "../UI/Card";
 
-export default function MoodItem(props) {
+const MoodItem = (props) => {
   return (
-    <div className="mood-item">
+    <Card className="mood-item">
       <MoodDate date={props.date} />
       <div className="mood-item__description">
         <h2>{props.title}</h2>
         <div className="mood-item__value">Scale: {props.value}</div>
       </div>
-    </div>
+    </Card>
   );
-}
+};
+
+export default MoodItem;
