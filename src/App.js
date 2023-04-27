@@ -1,8 +1,9 @@
+import { useState } from "react";
 import NewMood from "./components/NewMood/NewMood";
 import MoodsContainer from "./components/Moods/MoodsContainer";
 
 const App = () => {
-  const moods = [
+  const INITIAL_MOODS = [
     {
       id: "e1",
       title: "Happy",
@@ -19,18 +20,21 @@ const App = () => {
       id: "e3",
       title: "Enthusiastic",
       value: 9,
-      date: new Date(2023, 2, 28),
+      date: new Date(2019, 2, 28),
     },
     {
       id: "e4",
       title: "Normal",
       value: 5,
-      date: new Date(2023, 4, 12),
+      date: new Date(2020, 4, 12),
     },
   ];
+  const [moods, setMoods] = useState(INITIAL_MOODS);
 
   const addMoodHandler = (mood) => {
-    console.log(mood);
+    setMoods((prevMoods) => {
+      return [mood, ...prevMoods];
+    });
   };
 
   return (

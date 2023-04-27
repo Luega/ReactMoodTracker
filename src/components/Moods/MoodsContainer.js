@@ -5,11 +5,15 @@ import MoodsYearFilter from "./MoodsYearFilter";
 import MoodItem from "./MoodItem";
 
 const MoodsContainer = (props) => {
-  const [chosenYear, setChosenYear] = useState(2023);
+  const [chosenYear, setChosenYear] = useState("2023");
 
   const filterChangeHandler = (filteredYear) => {
     setChosenYear(filteredYear);
   };
+
+  const filteredMoods = props.moods.filter(
+    (mood) => mood.date.getFullYear().toString() === chosenYear
+  );
 
   return (
     <Card className="moodsContainer">
@@ -17,10 +21,10 @@ const MoodsContainer = (props) => {
         chosenYear={chosenYear}
         onChangeFilter={filterChangeHandler}
       />
-      {props.moods.map((mood, index) => {
+      {filteredMoods.map((mood) => {
         return (
           <MoodItem
-            key={index}
+            key={mood.id}
             title={mood.title}
             value={mood.value}
             date={mood.date}

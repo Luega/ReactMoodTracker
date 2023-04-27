@@ -9,7 +9,7 @@ const MoodsYearFilter = (props) => {
     <div className="moods-filter">
       <div className="moods-filter__control">
         <label>Filter by year</label>
-        <select value={props.chosenValue} onChange={dropdownChangeHandler}>
+        <select value={props.chosenYear} onChange={dropdownChangeHandler}>
           <option value="2023">2023</option>
           <option value="2022">2022</option>
           <option value="2021">2021</option>
