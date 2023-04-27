@@ -1,3 +1,4 @@
+import NewMood from "./components/NewMood/NewMood";
 import MoodsContainer from "./components/Moods/MoodsContainer";
 
 const App = () => {
@@ -28,9 +29,14 @@ const App = () => {
     },
   ];
 
+  const addMoodHandler = (mood) => {
+    console.log(mood);
+  };
+
   return (
     <div>
       <h1>YOUR MOOD IS YOUR LIFE</h1>
+      <NewMood addMoodToParentHandler={addMoodHandler} />
       <MoodsContainer moods={moods} />
     </div>
   );

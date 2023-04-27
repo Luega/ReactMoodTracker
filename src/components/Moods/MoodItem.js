@@ -1,6 +1,6 @@
 import "./MoodItem.css";
-import MoodDate from "./MoodDate";
 import Card from "../UI/Card";
+import MoodDate from "./MoodDate";
 
 const MoodItem = (props) => {
   return (
