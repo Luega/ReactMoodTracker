@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./MoodsContainer.css";
 import Card from "../UI/Card";
 import MoodsYearFilter from "./MoodsYearFilter";
-import MoodItem from "./MoodItem";
+import MoodsList from "./MoodsList";
 
 const MoodsContainer = (props) => {
   const [chosenYear, setChosenYear] = useState("2023");
@@ -21,16 +21,7 @@ const MoodsContainer = (props) => {
         chosenYear={chosenYear}
         onChangeFilter={filterChangeHandler}
       />
-      {filteredMoods.map((mood) => {
-        return (
-          <MoodItem
-            key={mood.id}
-            title={mood.title}
-            value={mood.value}
-            date={mood.date}
-          />
-        );
-      })}
+      <MoodsList moods={filteredMoods} />
     </Card>
   );
 };

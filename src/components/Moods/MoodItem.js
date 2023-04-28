@@ -4,13 +4,15 @@ import MoodDate from "./MoodDate";
 
 const MoodItem = (props) => {
   return (
-    <Card className="mood-item">
-      <MoodDate date={props.date} />
-      <div className="mood-item__description">
-        <h2>{props.title}</h2>
-        <div className="mood-item__value">Scale: {props.value}</div>
-      </div>
-    </Card>
+    <ul>
+      <Card className="mood-item">
+        <MoodDate date={props.date} />
+        <div className="mood-item__description">
+          <h2>{props.title}</h2>
+          <div className="mood-item__value">Scale: {props.value}</div>
+        </div>
+      </Card>
+    </ul>
   );
 };
 
