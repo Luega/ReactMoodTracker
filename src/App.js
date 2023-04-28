@@ -8,13 +8,13 @@ const App = () => {
       id: "e1",
       title: "Happy",
       value: 7,
-      date: new Date(2022, 7, 14),
+      date: new Date(2022, 9, 14),
     },
     {
       id: "e2",
       title: "Sad",
       value: 3,
-      date: new Date(2023, 2, 12),
+      date: new Date(2023, 5, 12),
     },
     {
       id: "e3",

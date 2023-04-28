@@ -20,7 +20,7 @@ function MoodForm(props) {
     e.preventDefault();
     const moodData = {
       title: enteredTitle,
-      value: enteredValue,
+      value: +enteredValue,
       date: new Date(enteredDate),
     };
     props.saveMoodDataToParentHandler(moodData);
@@ -63,6 +63,9 @@ function MoodForm(props) {
             />
           </div>
           <div className="new-mood__actions">
+            <button type="button" onClick={props.onCancel}>
+              Cancel
+            </button>
             <button type="submit">Add Mood</button>
           </div>
         </div>

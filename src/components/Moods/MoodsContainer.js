@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./MoodsContainer.css";
 import Card from "../UI/Card";
+import MoodsChart from "./MoodsChart";
 import MoodsYearFilter from "./MoodsYearFilter";
 import MoodsList from "./MoodsList";
 
@@ -17,6 +18,7 @@ const MoodsContainer = (props) => {
 
   return (
     <Card className="moodsContainer">
+      <MoodsChart moods={filteredMoods} />
       <MoodsYearFilter
         chosenYear={chosenYear}
         onChangeFilter={filterChangeHandler}
