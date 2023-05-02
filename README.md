@@ -15,7 +15,7 @@ This project is a simple showcase of how a clean and reusable User Interface (UI
 1.  Clone the repository
 
 ```bash
- git clone https://github.com/luega/ReactMoodTracker.git
+ git clone https://github.com/Luega/ReactMoodTracker.git
 ```
 
 2. Change the working directory
@@ -51,9 +51,9 @@ The project includes the following UI components:
 
 All the components are designed to be reusable and customizable. They can be easily imported and used in any React application.
 
-![My Image](Screenshot/Screenshot1.png)
-![My Image](Screenshot/Screenshot2.png)
-![My Image](Screenshot/Screenshot3.png)
+![My Image](screenshot/screenshot1.png)
+![My Image](screenshot/screenshot2.png)
+![My Image](screenshot/screenshot3.png)
 
 ## Technologies
 
