@@ -17,6 +17,10 @@
   flex: 1;
 }
 
+.mood-list {
+  cursor: pointer;
+}
+
 .mood-item h2 {
   color: #3a3a3a;
   font-size: 1rem;

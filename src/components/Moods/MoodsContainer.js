@@ -23,7 +23,10 @@ const MoodsContainer = (props) => {
         chosenYear={chosenYear}
         onChangeFilter={filterChangeHandler}
       />
-      <MoodsList moods={filteredMoods} />
+      <MoodsList
+        moods={filteredMoods}
+        removeMoodToParentHandler={props.removeMoodToParentHandler}
+      />
     </Card>
   );
 };

@@ -18,8 +18,6 @@ const MoodsChart = (props) => {
 
   for (const mood of props.moods) {
     const moodMonth = mood.date.getMonth();
-    console.log(moodMonth);
-    console.log(chartDataPoints[moodMonth]);
     chartDataPoints[moodMonth].value += mood.value;
   }
 

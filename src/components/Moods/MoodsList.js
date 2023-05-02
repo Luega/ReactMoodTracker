@@ -12,9 +12,11 @@ const MoodsList = (props) => {
         return (
           <MoodItem
             key={mood.id}
+            id={mood.id}
             title={mood.title}
             value={mood.value}
             date={mood.date}
+            removeMoodToParentHandler={props.removeMoodToParentHandler}
           />
         );
       })}

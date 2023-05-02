@@ -39,6 +39,8 @@ function MoodForm(props) {
               type="text"
               value={enteredTitle}
               onChange={titleChangeHandler}
+              placeholder="I feel..."
+              required
             />
           </div>
           <div className="new-mood__control">
@@ -50,6 +52,8 @@ function MoodForm(props) {
               max="10"
               step="0.5"
               onChange={valueChangeHandler}
+              placeholder="From 0 to 10"
+              required
             />
           </div>
           <div className="new-mood__control">
@@ -57,9 +61,10 @@ function MoodForm(props) {
             <input
               type="date"
               value={enteredDate}
-              min="2019-01-01"
-              max="2023-12-31"
+              min="2020-01-01"
+              max="2030-12-31"
               onChange={dateChangeHandler}
+              required
             />
           </div>
           <div className="new-mood__actions">
