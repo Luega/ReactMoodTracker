@@ -4,11 +4,11 @@ This project is a simple showcase of how a clean and reusable User Interface (UI
 
 ## Table of Contents
 
-- [Installation](https://github.com/Luega/ReactMoodTracker/main/README.md#installation)
-- [Usage](https://github.com/Luega/ReactMoodTrackers/main/README.md#usage)
-- [Features](https://github.com/Luega/ReactMoodTracker/main/README.md#features)
-- [Technologies](https://github.com/Luega/ReactMoodTracker/main/README.md#technologies)
-- [License](https://github.com/Luega/ReactMoodTracker/main/README.md#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Technologies](#technologies)
+- [License](#license)
 
 ![My Image](screenshot/screenshot1.png)
 ![My Image](screenshot/screenshot2.png)
