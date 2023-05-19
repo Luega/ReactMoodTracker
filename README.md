@@ -4,11 +4,11 @@ This project is a simple showcase of how a clean and reusable User Interface (UI
 
 ## Table of Contents
 
-- [Installation](https://github.com/Luega/FirstTryThree.js/blob/main/README.md#installation)
-- [Usage](https://github.com/Luega/FirstTryThree.js/blob/main/README.md#usage)
-- [Features](https://github.com/Luega/FirstTryThree.js/blob/main/README.md#features)
-- [Technologies](https://github.com/Luega/FirstTryThree.js/blob/main/README.md#technologies)
-- [License](https://github.com/Luega/FirstTryThree.js/blob/main/README.md#license)
+- [Installation](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#installation)
+- [Usage](https://github.com/Luega/ReactMoodTrackers/blob/main/README.md#usage)
+- [Features](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#features)
+- [Technologies](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#technologies)
+- [License](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#license)
 
 ## Installation
 
