@@ -4,11 +4,15 @@ This project is a simple showcase of how a clean and reusable User Interface (UI
 
 ## Table of Contents
 
-- [Installation](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#installation)
-- [Usage](https://github.com/Luega/ReactMoodTrackers/blob/main/README.md#usage)
-- [Features](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#features)
-- [Technologies](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#technologies)
-- [License](https://github.com/Luega/ReactMoodTracker/blob/main/README.md#license)
+- [Installation](https://github.com/Luega/ReactMoodTracker/main/README.md#installation)
+- [Usage](https://github.com/Luega/ReactMoodTrackers/main/README.md#usage)
+- [Features](https://github.com/Luega/ReactMoodTracker/main/README.md#features)
+- [Technologies](https://github.com/Luega/ReactMoodTracker/main/README.md#technologies)
+- [License](https://github.com/Luega/ReactMoodTracker/main/README.md#license)
+
+![My Image](screenshot/screenshot1.png)
+![My Image](screenshot/screenshot2.png)
+![My Image](screenshot/screenshot3.png)
 
 ## Installation
 
@@ -50,10 +54,6 @@ The project includes the following UI components:
 - Chart
 
 All the components are designed to be reusable and customizable. They can be easily imported and used in any React application.
-
-![My Image](screenshot/screenshot1.png)
-![My Image](screenshot/screenshot2.png)
-![My Image](screenshot/screenshot3.png)
 
 ## Technologies
 
